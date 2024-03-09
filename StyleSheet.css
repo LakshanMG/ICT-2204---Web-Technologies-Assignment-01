@@ -1,0 +1,76 @@
+body {
+  	font-family: Arial;
+  	padding: 10px;
+  	background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+	padding: 30px;
+  	text-align: center;
+  	background-image: url('Images/Background.jpg');
+	background-size: cover; /* or contain, or specific dimensions */
+   	background-repeat: no-repeat; /* or repeat, repeat-x, repeat-y */
+    	background-position: center top/* or any other position */
+}
+
+.header h1 {
+  	font-size: 50px;
+	font-family:"Sitka Small";
+	color:Black;
+	background-color: #4CAF50
+}
+
+.header p {
+  	font-size: 25px;
+	font-family:"Segoe Print";
+	color:Black;
+	background-color: #4CAF50;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  	overflow: hidden;
+  	background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  	background-color: #ddd;
+  	color: black;
+}
+
+
+/*Footer*/
+footer {
+    	background-color: #333;
+    	color: white;
+    	text-align: left;
+    	padding: 20px 20px;
+}
+
+section {
+    padding: 30px 30px;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.container {
+    width:100%;
+    margin: 0 auto;
+}
+
+
