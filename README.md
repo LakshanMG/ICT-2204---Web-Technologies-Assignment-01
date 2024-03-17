@@ -1,5 +1,5 @@
-![Screenshot 2024-03-09 112620](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160216975/8a8033ba-7028-4eb2-b856-625c16ea81b5)
-![Screenshot 2024-03-09 113732](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160216975/14620451-c493-4926-8f82-bfd8a2017950)
-![Screenshot 2024-03-09 114041](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160216975/8892a677-b76a-4fa9-9535-c53b631fba19)
-![Screenshot 2024-03-09 114515](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160216975/a3fce2b8-59ef-448d-a772-30f7c967cb57)
-![Screenshot 2024-03-09 114541](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160216975/9affb5cb-f716-4aba-af88-9716ef73615a)
+![main](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160216975/f06abdf2-b3c9-4f90-acf7-aa62a2073caf)
+![Register](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160216975/f9a9b276-401b-49a3-a2d2-1a8fff1c44aa)
+![fruits](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160
+![vegetables](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160216975/5c03e668-5cc7-4c44-b26e-027f28a9dfbd)
+![About](https://github.com/LakshanMG/ICT-2204---Web-Technologies-Assignment-01/assets/160216975/2c932d01-9bbf-4880-a472-0e2857070019)
