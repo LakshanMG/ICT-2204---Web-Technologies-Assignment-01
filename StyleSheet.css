@@ -65,6 +65,45 @@ footer {
 	font-family: "Anek Telugu", sans-serif;
 	text-align: center;
 }
+/*Icons*/
+.social-icons{
+	margin-top:30px;
+}
+
+.social-icons a{
+	text-decoration: none;
+	font-size: 30px;
+	margin-right: 15px;
+	color:#ababab;
+	display: inline-block;
+	transition:transform 0.10s;
+}
+
+.social-icons .tw:hover{
+	color:#1DA1F2;
+	transform:translateY(-5px);
+}
+
+.social-icons .fb:hover{
+	color:#1877F2;
+	transform:translateY(-5px);
+}
+
+.social-icons .lin:hover{
+	color:#0077B5;
+	transform:translateY(-5px);
+}
+.social-icons .in:hover{
+	color:#833AB4;
+	transform:translateY(-5px);
+}
+
+.social-icons .you:hover{
+	color:#FF0000;
+	transform:translateY(-5px);
+}
+
+/*End of the Icon Styles*/
 
 /*Content*/
 section {
@@ -170,6 +209,11 @@ section {
 	font-size:1.5rem;
 	line-height:1.8;
 	color:black;
+}
+
+.features .feature_box .box img{
+	width:170px;
+	height:170px;
 }
 
 .features .feature_box .box p{
@@ -363,6 +407,14 @@ section {
 
 
 /*Register Page*/
+.Reg .containe h1{
+	color:black;
+	font-size:2rem;
+}
+
+.Reg .containe h1 span{
+	color:green;
+}
 /* Start Form*/
 * {
 	box-sizing: border-box;
@@ -418,55 +470,155 @@ input[type=submit]:hover {
 	clear: both;
 }
 /*End of the form*/
+
+
 /*End of Register Page*/
 
 
 /*Fruits and Vegetable Pages*/
+.Veg .container h1{
+	color:black;
+	font-size:2rem;
+}
+
+.Veg .container h1 span{
+	color:green;
+}
 /* Fruits and Vegetable Table*/
-img{
+.item{
+	border-spacing: 15px;
+}
+
+.item img{
 	width:346px;
 	height:310px;
 }
 
-td{
+.item td{
 	transition: box-shadow 0.3s ease;
 	background:white;
+	border:1px solid gray;
 }
 
-td:hover{
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-	border: 2px solid #333;
+.item td:hover{
+	box-shadow: 0 0 20px green;
+	border: 3px solid green;
 }
 
-td p{
+.item td p{
 	text-align:center;
-	font-family:arial;
+	font-family: "Anek Telugu", sans-serif;
 	line-height: 1.5;
 }
 
+.item tr td .stars{
+	text-align:center;
+	color:gray;
+}
+
+.item tr td:hover .stars{
+	color:green;
+}
+
+.item tr td:hover p{
+	font-weight:bold;
+}
+
+.reg-ico{
+	margin-left:10px;
+	margin-top:10px;
+	position:absolute;
+	display: inline-block;
+}
+
+.add-to-cart-btn{
+	color:green;
+	background-color:none;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	opacity:0;
+}
+
+table tr td:hover .add-to-cart-btn{
+	opacity:1;
+}
+
+.add-to-cart-btn:hover{
+	color:red;
+}
 /*End of Tabale*/
 /*Fruits and Vegetable Pages*/
 
 
 /*About Page*/
-/*Icons*/
-.social-icons{
-	margin-top:30px;
+.about{
+	display:flex;
+	justify-content:left;
+	background:url(Images/img.jpg) no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding-top:2rem;
+	padding-bottom:5rem;
 }
 
-.social-icons a{
-	text-decoration: none;
-	font-size: 30px;
-	margin-right: 15px;
-	color:#ababab;
-	display: inline-block;
-	transition:transform 0.10s;
+.about .container{
+	text-align:left;
+	border:0px solid;
+	width:40rem;
+	
 }
 
-.social-icons a:hover{
-	color:#5d00ff;
-	transform:translateY(-5px);
+.about .container h1{
+	color:black;
+	font-size:2rem;
 }
 
-/*End of the Icon Styles*/
+.about .container h1 span{
+	color:green;
+}
+
+.contact{
+	padding-top:2rem;
+	border:0px solid;
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));
+	gap:1.5rem;
+	padding-top:0;
+}
+
+.contact .container {
+  margin-bottom: 20px;
+}
+.contact .container h1{
+	color:black;
+	font-size:2rem;
+}
+
+.contact .container h1 span{
+	color:green;
+}
+
+.gallery h1{
+	color:black;
+	font-size:2rem;
+}
+
+.gallery h1 span{
+	color:green;
+}
+.info {
+  border-collapse: separate;
+  border-spacing: 0px 2px;
+  padding-left:50px;
+}
+
+.info .info-td {
+  text-align:center;
+}
+
 /*End of About Page*/

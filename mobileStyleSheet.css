@@ -1,0 +1,143 @@
+@media only screen and (max-width: 768px){
+/* Adjust styles for screens up to 768px wide */
+
+/* Header styles */
+.header h1 {
+	font-size: 2rem;
+}
+
+.header p {
+    font-size: 1rem;
+}
+
+/* Top navigation bar styles */
+.topnav a {
+    padding: 8px;
+}
+
+/* Home section styles */
+.home {
+    padding: 2rem 0; 
+}
+
+.home .container h3 {
+    font-size: 1.2rem;
+}
+
+.home .container p {
+    font-size: 0.8rem;
+}
+
+/* Heading styles */
+.heading {
+    font-size: 1.5rem;
+}
+
+.heading span {
+    padding: 0.3rem 0.5rem;
+}
+
+/* Features section styles */
+.features .feature_box .box {
+    padding: 1.5rem; 
+    font-size: 0.8rem;
+}
+
+.features .feature_box .box img{
+    width:80px;
+	height:80px;
+}
+/* Review section styles */
+.review .Testimonial {
+    flex-direction: column;
+}
+
+/* Register Page styles */
+.Reg .containe h1 {
+    font-size: 1.2rem;
+}
+
+/* Form styles */
+.col-25, .col-75 {
+    width: 100%;
+}
+
+/* About Page styles */
+.about {
+    padding: 1rem 0;
+}
+
+.about .container h1 {
+    font-size: 1.2rem;
+}
+  
+.about .container h1 span {
+    padding: 0.3rem 0.5rem; 
+}
+
+/* Contact section styles */
+.contact {
+	display:block;
+    gap: 0.5rem;
+}
+
+.contact .container h1 {
+    font-size: 1.2rem;
+}
+
+.contact .container h1 span {
+    padding: 0.3rem 0.5rem;
+}
+
+/* Gallery styles */
+.gallery h1 {
+    font-size: 1.2rem;
+}
+
+.gallery h1 span {
+    padding: 0.3rem 0.5rem;
+}
+  
+.item {
+    border-spacing: 5px; 
+}
+ 
+.item img {
+    width: 100%; 
+    height: auto; 
+}
+
+ 
+.item td {
+    padding: 10px;
+    border: none; 
+}
+
+ 
+.item td:hover {
+    box-shadow: none; 
+    border: none; 
+}
+
+.item td p {
+    text-align: left; 
+    font-size: 14px; 
+}
+
+.item tr td .stars {
+    text-align: left; 
+}
+
+.reg-ico,
+.add-to-cart-btn {
+    margin-left: 0; 
+    margin-top: 10px; 
+    display: block; 
+    width: 100%; 
+    text-align: center; 
+}
+
+.add-to-cart-btn:hover {
+    opacity: 1; 
+  }
+}
