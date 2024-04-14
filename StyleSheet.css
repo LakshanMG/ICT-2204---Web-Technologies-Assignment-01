@@ -39,7 +39,7 @@ body {
   	background-color: #333;
 }
 
-/* Style the topnav links */
+
 .topnav a {
   	float: left;
   	display: block;
@@ -48,6 +48,13 @@ body {
   	padding: 14px 16px;
   	text-decoration: none;
 	font-family: "Anek Telugu", sans-serif;
+}
+
+.top-items{
+	float: right;
+}
+.top-list{
+	float: left;
 }
 
 /* Change color on hover */

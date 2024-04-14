@@ -14,6 +14,12 @@
 .topnav a {
     padding: 8px;
 }
+.top-items{
+	float: left;
+}
+.top-list{
+	float: left;
+}
 
 /* Home section styles */
 .home {
@@ -125,7 +131,8 @@
 }
 
 .item tr td .stars {
-    text-align: left; 
+    text-align: left;
+	font-size:10px;
 }
 
 .reg-ico,
@@ -137,7 +144,8 @@
     text-align: center; 
 }
 
-.add-to-cart-btn:hover {
-    opacity: 1; 
-  }
+.item td:hover .add-to-cart-btn{
+    opacity:0; 
+}
+ 
 }
